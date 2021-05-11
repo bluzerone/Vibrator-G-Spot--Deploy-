@@ -1,0 +1,89 @@
+<ion-content class="no-scroll" [fullscreen]="true">
+  <ion-slides
+  #mySlider
+  pager="true"
+  [options]="slideOpts"
+  (ionSlideReachEnd)="slideNextEnd()">
+    <ion-slide>
+      <div class="slide__container">
+        <div class="img__logo__wrapper">
+          <div class="img__logo"
+            [ngClass]="{'img__logo__light': storageService.themeDark === 'false'}"
+          ></div>
+          <div class="img__logo__shadow" *ngIf="storageService.themeDark === 'true'"></div>
+        </div>
+           <p class="title__text"
+           [ngClass]="{'title__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['Vibrator G-Spot']}}</p>
+           <p class="content__text"
+           [ngClass]="{'content__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['Vibration has a profound']}}</p>
+      </div>
+      <div class="btn__wrapper"><ion-button class="next__btn"
+        (click)="swipeNext()"
+        [ngClass]="{'next__btn__light': storageService.themeDark === 'false'}"
+        >{{i18nService.intro['Next']}}</ion-button></div>
+    </ion-slide>
+    <ion-slide>
+      <div class="slide__container">
+        <div class="img__lock__wrapper">
+          <div class="img__lock" [ngClass]="{'img__lock__light': storageService.themeDark === 'false'}"></div>
+          <div class="img__lock__shadow" *ngIf="storageService.themeDark === 'true'"></div>
+        </div>
+        <p class="title__text"
+        [ngClass]="{'content__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['Total anonymity']}}</p>
+        <p class="content__text"
+        [ngClass]="{'content__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['This application does not collect']}}</p>
+      </div>
+      <div class="btn__wrapper"><ion-button class="next__btn"
+        (click)="swipeNext()"
+        [ngClass]="{'next__btn__light': storageService.themeDark === 'false'}">{{i18nService.intro['Next']}}</ion-button></div>
+    </ion-slide>
+    <ion-slide>
+      <div *ngIf='closeSlide'>
+        <img src="assets/ModeIcons/Light/modalCloseIcon.png" *ngIf="storageService.themeDark === 'false'" class="close__image" alt=""  [routerLink]="['/home']">
+      </div>
+
+      <div *ngIf='closeSlide'>
+        <img src="assets/ModeIcons/Dark/close.png" *ngIf="storageService.themeDark === 'true'" class="close__image" alt=""  [routerLink]="['/home']">
+      </div>
+
+      <div class="slide__container__last">
+        <div class="img__star__wrapper">
+          <div class="img__star"></div>
+          <div class="img__star__shadow"></div>
+        </div>
+        <p class="title__text try__app"
+        [ngClass]="{'try__app__light': storageService.themeDark === 'false'}">{{i18nService.intro['Try our app']}}</p>
+        <div class="about__app__wrapper">
+          <div class="about__app__container__bg"
+            [ngClass]="{'no__adds__bg__light': storageService.themeDark === 'false'}"
+          ></div>
+            <div class="plus__symbol"
+            [ngClass]="{'plus__symbol__light': storageService.themeDark === 'false'}">+</div>
+            <div class="about__text__wrapper"
+            [ngClass]="{'about__text__wrapper__light': storageService.themeDark === 'false'}">
+              <p>{{i18nService.intro['12 vibration modes']}}</p>
+              <p>{{i18nService.intro['3 power levels']}}</p>
+              <p>{{i18nService.intro['7 intensity options']}}</p>
+            </div>
+        </div>
+        <div class="no__adds__wrapper">
+          <div class="no__adds__bg"
+            [ngClass]="{'no__adds__bg__light': storageService.themeDark === 'false'}"
+          ></div>
+          <div class="no__adds__icon"
+            [ngClass]="{'no__adds__icon__light': storageService.themeDark === 'false'}"
+          ></div>
+          <div class="no__adds__text"
+          [ngClass]="{'no__adds__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['No ads']}}</div>
+        </div>
+        <div class="price"
+        [ngClass]="{'price__light': storageService.themeDark === 'false'}">$4,99/1 {{i18nService.intro['week']}}</div>
+      </div>
+      <div class="btn__start__wrapper"><ion-button class="next__btn"
+        (click)="swipeNext()"
+        [ngClass]="{'next__btn__light': storageService.themeDark === 'false'}">{{i18nService.intro['Start']}}</ion-button></div>
+      <div class="privacy__text"
+      [ngClass]="{'privacy__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['Subscription Term: After free trial']}}</div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

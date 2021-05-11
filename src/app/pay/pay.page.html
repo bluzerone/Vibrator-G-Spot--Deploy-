@@ -1,0 +1,97 @@
+<ion-content>
+  <div class="pay__container">
+    <div class="slide__container__last">
+      <div class="close__icon"
+      (click)="closeModal()"
+      [ngClass]="{'close__icon__light': storageService.themeDark === 'false'}"></div>
+      <div class="img__star__wrapper">
+        <div class="img__star"></div>
+        <div class="img__star__shadow"></div>
+      </div>
+      <p class="title__text try__app"
+      [ngClass]="{'try__app__light': storageService.themeDark === 'false'}">{{i18nService.home['Want VIP?']}}</p>
+      <div class="about__app__wrapper">
+        <div class="about__app__container__bg"
+        [ngClass]="{'about__app__container__bg__light': storageService.themeDark === 'false'}"></div>
+          <div class="plus__symbol"
+          [ngClass]="{'plus__symbol__light': storageService.themeDark === 'false'}">+</div>
+          <div class="about__text__wrapper"
+          [ngClass]="{'about__text__wrapper__light': storageService.themeDark === 'false'}">
+            <p>{{i18nService.intro['12 vibration modes']}}</p>
+            <p>{{i18nService.intro['3 power levels']}}</p>
+            <p>{{i18nService.intro['7 intensity options']}}</p>
+          </div>
+      </div>
+      <div class="no__adds__wrapper">
+        <div class="no__adds__bg"
+        [ngClass]="{'no__adds__bg__light': storageService.themeDark === 'false'}"
+        ></div>
+        <div class="no__adds__icon"
+          [ngClass]="{'no__adds__icon__light': storageService.themeDark === 'false'}"
+        ></div>
+        <div class="no__adds__text"
+        [ngClass]="{'no__adds__text__light': storageService.themeDark === 'false'}">{{i18nService.intro['No ads']}}</div>
+      </div>
+
+    <div class="pay__btns__container">
+      <div class="pay__btn__wrapper">
+        <div class="pay__btn__bg"
+          [ngClass]="{'pay__btn__bg__light': storageService.themeDark === 'false'}"
+        ></div>
+        <div class="pay__btn__text__col">
+          <div class="pay__btn__text__title"
+          [ngClass]="{'btn__text__light': storageService.themeDark === 'false'}">{{i18nService.pay['Forever']}}: $39,99</div>
+          <div class="pay__btn__text__subtitle"
+          [ngClass]="{'pay__btn__text__subtitle__light': storageService.themeDark === 'false'}">{{i18nService.pay['One time purchase']}}</div>
+        </div>
+        <div class="pay__btn__start">
+          <div class="pay__btn__start__text"
+          [ngClass]="{'pay__btn__start__text__light': storageService.themeDark === 'false'}">{{i18nService.pay['Start']}}</div>
+          <div class="pay__btn__start__icon"
+            [ngClass]="{'pay__btn__start__icon__light': storageService.themeDark === 'false'}"
+          ></div>
+        </div>
+      </div>
+      <div class="pay__btn__wrapper ">
+        <div class="popular__wrapper">
+          <div class="popular__box">
+            <div class="popular__bg"></div>
+            <div class="popular__text"
+            [ngClass]="{'popular__text__ja': i18nService.language === 'ja'}"
+            >{{i18nService.pay['Popular choice']}}</div>
+          </div>
+        </div>
+
+        <div class="pay__btn__bg central"></div>
+        <div class="pay__btn__text__col">
+          <div class="pay__btn__text__title">1 {{i18nService.pay['month']}}: $9,99</div>
+          <div class="pay__btn__text__subtitle">$2,49/{{i18nService.pay['week']}}</div>
+        </div>
+        <div class="pay__btn__start">
+          <div class="pay__btn__start__text">{{i18nService.pay['Start']}}</div>
+          <div class="pay__btn__start__icon"></div>
+        </div>
+      </div>
+      <div class="pay__btn__wrapper">
+        <div class="pay__btn__bg"
+          [ngClass]="{'pay__btn__bg__light': storageService.themeDark === 'false'}"
+        ></div>
+        <div class="pay__btn__text__col">
+          <div class="pay__btn__text__title"
+          [ngClass]="{'btn__text__light': storageService.themeDark === 'false'}">{{i18nService.pay['Three day free'] | truncate: 12}}</div>
+          <div class="pay__btn__text__subtitle"
+          [ngClass]="{'pay__btn__text__subtitle__light': storageService.themeDark === 'false'}">$4,99/{{i18nService.pay['week after that']}}</div>
+        </div>
+        <div class="pay__btn__start">
+          <div class="pay__btn__start__text"
+          [ngClass]="{'pay__btn__start__text__light': storageService.themeDark === 'false'}">{{i18nService.pay['Test app']}}</div>
+          <div class="pay__btn__start__icon"
+            [ngClass]="{'pay__btn__start__icon__light': storageService.themeDark === 'false'}"
+          ></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+</ion-content>

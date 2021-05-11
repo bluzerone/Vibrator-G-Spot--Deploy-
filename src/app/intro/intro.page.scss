@@ -1,0 +1,429 @@
+ion-slides{
+  height: 100%;
+}
+
+.slide__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.slide__container__last{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 74%;
+}
+
+.title__text{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.title__text__light{
+  color: #000;
+}
+
+.content__text{
+  font-size: 18px;
+  color: #EBD1DA;
+  width: 319px;
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.content__text__light{
+  color: #000;
+}
+
+.next__btn {
+    width: 152px;
+    height: 62px;
+  --border-radius: 35px;
+  --background: #FFFFFF;
+  --color: #FE175C;
+  --background-focused: none;
+  --background-activated: none;
+}
+
+.next__btn__light{
+  --background: #FE175C;
+  --color: #FFFFFF;
+}
+
+.btn__wrapper{
+  position: absolute;
+  top: 622px;
+  left: 111px;
+}
+
+.btn__start__wrapper{
+  position: absolute;
+  top: 602px;
+  left: 111px;
+}
+
+.img__logo__wrapper{
+  position: relative;
+  width: 231.27px;
+  height: 220px;
+}
+
+.img__logo{
+  background-image: url("/assets/ModeIcons/Dark/Logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 231.27px;
+  height: 220px;
+  position: absolute;
+}
+
+.img__logo__light{
+  background-image: url("/assets/ModeIcons/Light/bigLogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img__logo__shadow{
+  background-image: url("/assets/ModeIcons/Dark/LogoWithShadow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 231.27px;
+  height: 220px;
+  position: absolute;
+}
+
+.img__lock__wrapper{
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.img__lock{
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/ModeIcons/Dark/Lock.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.img__lock__light{
+  background-image: url("/assets/ModeIcons/Light/bigLockIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img__lock__shadow{
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/ModeIcons/Dark/LockShadow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.img__star__wrapper{
+  width: 200px;
+  height: 191px;
+  position: relative;
+}
+
+.img__star{
+  width: 200px;
+  height: 191px;
+  background-image: url("/assets/ModeIcons/Dark/Favourites.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+}
+
+.img__star__shadow{
+  width: 245px;
+  height: 245px;
+  background-image: url("/assets/ModeIcons/Dark/FavouritesShadow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  top: -25px;
+  right: -20px;
+}
+
+.about__app__wrapper{
+  position: relative;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.about__app__container__bg{
+  background: #FE175C;
+  border-radius: 5px;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.plus__symbol{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  width: 24px;
+  color: #FFFFFF;
+  margin-left: 16px;
+  margin-right: 8px;
+  z-index: 1;
+}
+
+.about__text__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+  z-index: 1;
+  p {
+      margin: 0;
+      color: #FFFFFF;
+      font-size: 18px;
+      pading: 1px 0;
+      text-align: left;
+  }
+}
+
+.no__adds__wrapper{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 26px;
+  padding: 0 16px;
+}
+
+.no__adds__bg{
+  background: #FE175C;
+  border-radius: 5px;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding: 8px 0;
+}
+
+.no__adds__icon{
+  width: 19px;
+  height: 14.91px;
+  background-image: url("/assets/ModeIcons/Dark/checkIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.no__adds__text{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 6px;
+  z-index: 1;
+}
+
+.close__image {
+  position: absolute;
+  width: 18px;
+  top: 62px;
+  right: 28px;
+}
+
+.price{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.privacy__text{
+  font-family: 'Lato', sans-serif;
+  font-style: regular;
+  line-height: 12px;
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 44px;
+  padding: 0 20px;
+}
+
+.try__app__light{
+  color: #000;
+}
+.about__app__container__bg__light{
+  opacity: 0.05;
+}
+.plus__symbol__light{
+  color: #FE175C;
+}
+.about__text__wrapper__light{
+  p{
+    color: #000;
+  }
+}
+.no__adds__bg__light{
+  opacity: 0.05;
+}
+.no__adds__icon__light{
+  background-image: url("/assets/ModeIcons/Light/checkIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.no__adds__text__light{
+  color: #000;
+}
+
+.price__light{
+  color: #FE175C;
+}
+
+.privacy__text__light{
+  color: #8D7A80;
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px){
+
+  .btn__wrapper{
+    top: 545px;
+  }
+
+  .img__star{
+    width: 150px;
+    height: 141px;
+  }
+
+  .img__star__wrapper{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img__star__shadow{
+    width: 205px;
+    height: 205px;
+    top: -30px;
+    right: -19px;
+  }
+
+  .slide__container__last{
+    height: 90%;
+  }
+
+  .privacy__text{
+    bottom: 110px;
+  }
+
+  .btn__start__wrapper{
+    top: 570px;
+    left: 108px;
+  }
+
+  .close__image{
+    top: 20px;
+  }
+
+  .no__adds__wrapper{
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) and (max-height: 736px){
+  .img__star{
+    width: 150px;
+    height: 141px;
+  }
+
+  .img__star__wrapper{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img__star__shadow{
+    width: 205px;
+    height: 205px;
+    top: -30px;
+    right: -19px;
+  }
+
+  .slide__container__last{
+    height: 85%;
+  }
+
+  .privacy__text{
+    bottom: 50px;
+  }
+
+  .btn__start__wrapper{
+    top: 510px;
+    left: 125px;
+  }
+
+  .close__image{
+    top: 20px;
+    z-index: 9999999
+  }
+
+  .btn__wrapper{
+    top: 580px;
+    left: 125px;
+  }
+
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) and (max-height: 812px){
+
+  .btn__start__wrapper{
+    top: 602px;
+    left: 111px;
+  }
+
+}
+
+
+@media screen and (min-width: 414px) and (min-height: 896px) and (max-height: 896px){
+
+  .btn__start__wrapper{
+    top: 630px;
+    left: 125px;
+  }
+
+  .btn__wrapper{
+    top: 660px;
+    left: 125px;
+  }
+
+}

@@ -1,0 +1,75 @@
+<ion-content [fullscreen]="true" class="no-scroll">
+  <ion-header>
+    <ion-toolbar [ngClass]="{'toolbar__after__light': storageService.themeDark === 'false'}">
+      <ion-title [ngClass]="{'toolbar__title__light': storageService.themeDark === 'false'}">{{i18nService.setings['Setings']}}</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button text="" defaultHref="home"
+        [ngClass]="{'backbtn__light': storageService.themeDark === 'false'}"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <div class="setings__container">
+    <div class="setings__btn__wrapper" (click)="presentAlert()">
+      <div class="setings__btn__bg"
+        [ngClass]="{'setings__btn__bg__light': storageService.themeDark === 'false'}"
+      ></div>
+      <div class="setings__btn__icon__wrapper">
+        <div class="setings__btn__icon question" [ngClass]="{'question__light': storageService.themeDark === 'false'}">?</div>
+      </div>
+      <div class="setings__btn__text"
+      [ngClass]="{'btn__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['Does not vibrate?']}}</div>
+    </div>
+    <div class="setings__btn__wrapper">
+      <div class="setings__btn__bg"
+       [ngClass]="{'setings__btn__bg__light': storageService.themeDark === 'false'}"
+      ></div>
+      <div class="setings__btn__icon__wrapper">
+        <div class="setings__btn__icon rate"
+          [ngClass]="{'rate__light': storageService.themeDark === 'false'}"
+        ></div>
+      </div>
+      <div class="setings__btn__text"
+      [ngClass]="{'btn__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['Rate us']}}</div>
+    </div>
+    <div class="setings__btn__wrapper">
+      <div class="setings__btn__bg"
+       [ngClass]="{'setings__btn__bg__light': storageService.themeDark === 'false'}"
+      ></div>
+      <div class="setings__btn__icon__wrapper">
+        <div class="setings__btn__icon restore"
+          [ngClass]="{'restore__light': storageService.themeDark === 'false'}"
+        ></div>
+      </div>
+      <div class="setings__btn__text"
+      [ngClass]="{'btn__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['Restore purchases']}}</div>
+    </div>
+    <div class="setings__btn__row" [ngClass]="{'setings__btn__row__light': storageService.themeDark === 'false'}">
+      <div class="small__btn__wrapper">
+        <div class="setings__btn__bg"
+          [ngClass]="{'setings__btn__bg__light': storageService.themeDark === 'false'}"
+        ></div>
+        <div class="pdf__logo" [ngClass]="{'pdf__logo__light': storageService.themeDark === 'false'}"></div>
+        <div class="small__btn__text"
+        [ngClass]="{'small__btn__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['Privacy policy'] | truncate: 17}}</div>
+      </div>
+      <div class="small__btn__wrapper">
+        <div class="setings__btn__bg"
+          [ngClass]="{'setings__btn__bg__light': storageService.themeDark === 'false'}"
+        ></div>
+        <div class="pdf__logo" [ngClass]="{'pdf__logo__light': storageService.themeDark === 'false'}"></div>
+        <div class="small__btn__text"
+        [ngClass]="{'small__btn__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['use'] | truncate: 17}}</div>
+      </div>
+    </div>
+  <div class="switch__theme__row">
+      <div class="red__theme__text" [ngClass]="{'red__theme__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['White theme']}}</div>
+      <div class="toggle__wrapper"><ion-toggle [(ngModel)]="storageService.themeDark" (ionChange)='storageService.setItem($event)'></ion-toggle></div>
+      <div class="white__theme__text" [ngClass]="{'white__theme__text__light': storageService.themeDark === 'false'}">{{i18nService.setings['Red theme']}}</div>
+  </div>
+  <div class="increase__btn">
+    <div class="increase__bg"></div>
+    <div class="increase__icon"></div>
+    <div class="increase__text" (click)="appComponent.presentModal()">{{i18nService.setings['Increasing power']}}</div>
+  </div>
+  </div>
+</ion-content>

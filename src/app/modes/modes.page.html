@@ -1,0 +1,45 @@
+<ion-content [fullscreen]="true" class="no-scroll">
+  <ion-header>
+    <ion-toolbar [ngClass]="{'toolbar__after__light': storageService.themeDark === 'false'}">
+      <ion-title [ngClass]="{'toolbar__title__light': storageService.themeDark === 'false'}">{{i18nService.modes['Modes']}}</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button
+        text=""
+        defaultHref="home"
+        [ngClass]="{'backbtn__light': storageService.themeDark === 'false'}"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <div class="modes__content">
+      <div class="mode__wrapper"
+      *ngFor="let btn of modesDark"
+      (click)='changeNavigate(btn.id)'>
+         <div class="mode__icon"
+        [class.image__opacity]='activeMode !== btn.name'
+        [class.filter__not__paid]= '!btn.paid'
+        [ngClass]="{'not__paid__star__de': i18nService.language === 'de',
+        'not__paid__star__fr': i18nService.language === 'fr',
+         'not__paid__star__zh': i18nService.language === 'zh'}"
+        >
+        <ion-img [src]= 'btn.iconActive' *ngIf="storageService.themeDark === 'true'"></ion-img>
+        <ion-img [src]= 'btn.iconActiveLight' *ngIf="storageService.themeDark === 'false'"></ion-img>
+      </div>
+        <div class="mode__bg" [ngClass]="{'mode__bg__light': storageService.themeDark === 'false'}"></div>
+        <div class="not__paid__star"
+        *ngIf="!btn.paid"
+        ></div>
+        <div class="mode__text"
+        *ngIf="storageService.themeDark === 'false'"
+        [class.mode__text__color]='activeMode !== btn.name'
+          [ngClass]="{'mode__text__light': storageService.themeDark === 'false'}"
+        >{{i18nService.modes[btn.name]}}</div>
+        <div class="mode__text"
+        *ngIf="storageService.themeDark === 'true'"
+        [ngClass]="{'mode__text__ja': i18nService.language === 'ja',
+         'mode__text__de': i18nService.language === 'de',
+         'mode__text__fr': i18nService.language === 'fr',
+         'mode__text__zh': i18nService.language === 'zh'}">{{i18nService.modes[btn.name]}}</div>
+      </div>
+
+  </div>
+</ion-content>

@@ -1,0 +1,71 @@
+{
+  "intro": {
+    "Vibration has a profound": "Vibration has a profound and versatile effect on the tissues, nervous and vascular system. It has an analgesic and even anesthetic effect.",
+    "Next": "Next",
+    "Vibrator G-Spot": "Vibrator G-Spot",
+    "Total anonymity": "Total anonymity",
+    "This application does not collect": "This application does not collect personal information from users, either for analytical or marketing purposes.",
+    "Try our app": "Try our app",
+    "12 vibration modes": "12 vibration modes",
+    "3 power levels": "3 power levels",
+    "7 intensity options": "7 intensity options",
+    "No ads": "No ads",
+    "week": "week",
+    "Start": "Start",
+    "Subscription Term: After free trial": "Subscription Term: After free trial, VibroBro, weekly subscription is $4,99/1 week, automatically renews unless turned off in Account Settings at least 24h before current period ends. Payment is charged to your iTunes account. Unused portion of free trial is forfeited after purchase."
+  },
+  "home": {
+    "Speed" : "Speed",
+    "Power" : "Power",
+    "Want VIP?" : "Want VIP?",
+    "Hold to unlock" : "Hold to unlock"
+  },
+  "modes": {
+    "Modes" : "Modes",
+    "Total Harmony" : "Total Harmony",
+    "Spring Rain" : "Spring Rain",
+    "Time for Yourself" : "Time for Yourself",
+    "Paradise Island" : "Paradise Island",
+    "Summer Storm" : "Summer Storm",
+    "Secrets of Nirvana" : "Secrets of Nirvana",
+    "Sweet Kiss" : "Sweet Kiss",
+    "Awakening of Power" : "Awakening of Power",
+    "The glow of youth" : "The glow of youth",
+    "Morning Tenderness" : "Morning Tenderness",
+    "Balinese Morning" : "Balinese Morning",
+    "Hawaiian storm" : "Hawaiian storm"
+  },
+  "setings": {
+    "Setings" : "Setings",
+    "Does not vibrate?" : "Does not vibrate?",
+    "Rate us" : "Rate us",
+    "Restore purchases" : "Restore purchases",
+    "Privacy policy" : "Privacy policy",
+    "use" : "Terms  of use",
+    "Red theme" : "Red theme",
+    "White theme" : "White theme",
+    "Increasing power" : "Increasing power"
+  },
+  "pay": {
+    "vibration modes" : "vibration modes",
+    "power levels" : "power levels",
+    "intensity options" : "intensity options",
+    "No ads" : "No ads",
+    "Forever" : "Forever",
+    "One time purchase" : "One time purchase",
+    "Start" : "Start",
+    "month" : "month",
+    "Popular choice" : "Popular choice",
+    "week" : "week",
+    "Three day free" : "Three day free",
+    "week after that" : "week after that",
+    "Test app" : "Test App"
+  },
+  "modal":{
+    "Does not vibrate?" : "Does not vibrate?",
+    "Make sure that" : "Make sure that vibration and haptics are enabled in your device settings:",
+    "settings1" : "1. [Settings -> Sounds & Haptics] and switch on ‘Vibrate on Ring’, ‘Vibrate on Silent’ and ‘System Haptics’",
+    "settings2" : "2. [Settings -> Accessibility -> Touch] and switch on ‘Vibration’",
+    "Ok, close" : "Ok, close"
+  }
+}

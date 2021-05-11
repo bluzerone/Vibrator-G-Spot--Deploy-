@@ -1,0 +1,34 @@
+<ion-app>
+
+  <ion-router-outlet [animated]="false"></ion-router-outlet>
+  <div class="bottom__navigate__container">
+    <div class="unlock__bacground__app"></div>
+    <div class="bottom__navigate__background"
+    [ngClass]="{'navigate__background__light': storageService.themeDark === 'false'}"></div>
+    <div class="bottom__navigate">
+      <div *ngFor='let item of navigate'
+      class="bottom__navigate-icon"
+      [routerLink]=item.router
+      (click)='changeNavigate(item.id)'>
+        <div [class.image__opacity]='!item.active'>
+          <ion-img [src]="item.icon"
+          *ngIf="storageService.themeDark === 'true'"></ion-img>
+          <ion-img [src]="item.iconLight"
+          *ngIf="storageService.themeDark === 'false'"></ion-img>
+        </div>
+      </div>
+    </div>
+    <div class="bottom__navigate__disabled"
+    style='opacity: 0.2;display:none;'>
+      <div *ngFor='let item of navigate'
+      class="bottom__navigate-icon">
+        <div [class.image__opacity]='!item.active'>
+          <ion-img [src]="item.icon"
+          *ngIf="storageService.themeDark === 'true'"></ion-img>
+          <ion-img [src]="item.iconLight"
+          *ngIf="storageService.themeDark === 'false'"></ion-img>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-app>

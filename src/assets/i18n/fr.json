@@ -1,0 +1,71 @@
+{
+  "intro": {
+    "Vibration has a profound": "La vibration a un effet profond et polyvalent sur les tissus, le système nerveux et vasculaire. Il a un effet analgésique et même anesthésique.",
+    "Next": "Suivant",
+    "Vibrator G-Spot": "Vibrateur G-Spot",
+    "Total anonymity": "Anonymat total",
+    "This application does not collect": "Cette application ne collecte pas d'informations personnelles des utilisateurs, que ce soit à des fins d'analyse ou de marketing.",
+    "Try our app": "Essayez notre appli",
+    "12 vibration modes": "12 modes de vibration",
+    "3 power levels": "3 niveaux de puissance",
+    "7 intensity options": "7 options d'intensité",
+    "No ads": "Pas de pubs",
+    "week": "semaine",
+    "Start": "Début",
+    "Subscription Term: After free trial": "Durée de l'abonnement: après l'essai gratuit, VibroBro, l'abonnement hebdomadaire est de 4,99 $ / 1 semaine, se renouvelle automatiquement sauf s'il est désactivé dans les paramètres du compte au moins 24 heures avant la fin de la période en cours. Le paiement est débité de votre compte iTunes. La partie inutilisée de l'essai gratuit est perdue après l'achat."
+  },
+  "home": {
+    "Speed" : "La vitesse",
+    "Power" : "Pouvoir",
+    "Want VIP?" : "Envie de VIP?",
+    "Hold to unlock" : "Maintenez pour déverrouiller"
+  },
+  "modes": {
+    "Modes" : "Les modes",
+    "Total Harmony" : "Harmonie totale",
+    "Spring Rain" : "Pluie de printemps",
+    "Time for Yourself" : "Du temps pour vous",
+    "Paradise Island" : "Île paradisiaque",
+    "Summer Storm" : "Tempête d'été",
+    "Secrets of Nirvana" : "Secrets du Nirvana",
+    "Sweet Kiss" : "Doux baiser",
+    "Awakening of Power" : "Éveil du pouvoir",
+    "The glow of youth" : "L'éclat de la jeunesse",
+    "Morning Tenderness" : "Tendresse du matin",
+    "Balinese Morning" : "Matin balinais",
+    "Hawaiian storm" : "Tempête hawaïenne"
+  },
+  "setings": {
+    "Setings" : "Paramètres",
+    "Does not vibrate?" : "Ne vibre pas?",
+    "Rate us" : "Évaluez nous",
+    "Restore purchases" : "Restaurer les achats",
+    "Privacy policy" : "Politique de confidentialité",
+    "use" : "Conditions d'utilisation",
+    "Red theme" : "Thème rouge",
+    "White theme" : "Thème blanc",
+    "Increasing power" : "Augmentation de la puissance"
+  },
+  "pay": {
+    "vibration modes" : "modes de vibration",
+    "power levels" : "niveaux de puissance",
+    "intensity options" : "options d'intensité",
+    "No ads" : "Pas de pubs",
+    "Forever" : "Toujours",
+    "One time purchase" : "Achat en un click",
+    "Start" : "Démarrer",
+    "month" : "mois",
+    "week" : "semaine",
+    "Three day free" : "Trois jours gratuits",
+    "week after that" : "semaine après",
+    "Popular choice" : "Populaire",
+    "Test app" : "Tester l'application"
+  },
+  "modal":{
+    "Does not vibrate?" : "Ne vibre pas?",
+    "Make sure that" : "Assurez-vous que les vibrations et les haptiques sont activées dans les paramètres de votre appareil:",
+    "settings1" : "1. [Settings -> Sounds & Haptics] et activez «Vibrate on Ring», «Vibrate on Silent» et «System Haptics»",
+    "settings2" : "2. [Paramètres -> Accessibilité -> Tactile] et activez «Vibration»",
+    "Ok, close" : "Ok, ferme"
+  }
+}

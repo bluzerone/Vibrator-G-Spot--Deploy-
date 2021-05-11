@@ -1,0 +1,71 @@
+{
+  "intro": {
+    "Vibration has a profound": "さまざまな強度と速度を調整する機能を使用して、自分でバイブレーションを作成します。",
+    "Next": "さらに",
+    "Vibrator G-Spot": "Vibrator G-Spot",
+    "Total anonymity": "完全な匿名性",
+    "This application does not collect": "このアプリケーションは、分析またはマーケティングの目的でユーザーから個人情報を収集することはありません。",
+    "Try our app": "私たちのアプリをお試しください",
+    "12 vibration modes": "12の振動モード",
+    "3 power levels": "3つの電力レベル",
+    "7 intensity options": "7つの強度オプション",
+    "No ads": "広告なし",
+    "week": "週間",
+    "Start": "始める",
+    "Subscription Term: After free trial": "サブスクリプション期間：Vibrator G-Spotの無料トライアル後、毎週のサブスクリプションは$ 4.99/1週間で、現在の期間が終了する少なくとも24時間前にアカウント設定で無効にされていない限り、自動更新されます。支払いはiTunesアカウントに請求されます。無料試用版の未使用部分は購入後にキャンセルされます。"
+  },
+  "home": {
+    "Speed" : "速度",
+    "Power" : "電源",
+    "Want VIP?" : "VIPをしたいですか？",
+    "Hold to unlock" : "ロックを解除するにはホールド"
+  },
+  "modes": {
+    "Modes" : "モード",
+    "Total Harmony" : "完全な 調和",
+    "Spring Rain" : "春の 雨",
+    "Time for Yourself" : "あなた自身の ための時間",
+    "Paradise Island" : "パラダイス 島",
+    "Summer Storm" : "夏の 嵐",
+    "Secrets of Nirvana" : "ニルヴァーナの秘密",
+    "Sweet Kiss" : "甘い キス",
+    "Awakening of Power" : "フォースの覚醒",
+    "The glow of youth" : "若さの 輝き",
+    "Morning Tenderness" : "朝の 優しさ",
+    "Balinese Morning" : "バリの 朝",
+    "Hawaiian storm" : "ハワイ の嵐"
+  },
+  "setings": {
+    "Setings" : "設定",
+    "Does not vibrate?" : "いいえ振動ん？",
+    "Rate us" : "レート私たち",
+    "Restore purchases" : "購入を復元する",
+    "Privacy policy" : "個人情報保護方針",
+    "use" : "動作条件",
+    "Red theme" : "Red theme",
+    "White theme" : "赤いテーマ",
+    "Increasing power" : "ホワイトのテーマ"
+  },
+  "pay": {
+    "vibration modes" : "の振動モード",
+    "power levels" : "つの電力レベル",
+    "intensity options" : "つの強度オプション",
+    "No ads" : "広告なし",
+    "Forever" : "永遠に",
+    "One time purchase" : "1回限りの購入",
+    "Start" : "始める",
+    "month" : "か月",
+    "Popular choice" : "人気のある選択肢",
+    "week" : "週",
+    "Three day free" : "3日間無料",
+    "week after that" : "週以降",
+    "Test app" : "テストする App"
+  },
+  "modal":{
+    "Does not vibrate?" : "いいえ振動ん？",
+    "Make sure that" : "デバイスの設定で振動と触覚が有効になっていることを確認してください:",
+    "settings1" : "1. [設定 >サウンドと触覚] を有効にして有効にします «通話中のバイブレーション»、«サイレント モードでの振動» と«システム触覚»。",
+    "settings2" : "2. [設定->アクセシビリティ->]をタッチしてオンにします«振動»。",
+    "Ok, close" : "良い"
+  }
+}

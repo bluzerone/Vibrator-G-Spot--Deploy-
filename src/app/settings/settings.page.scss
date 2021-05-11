@@ -1,0 +1,425 @@
+ion-header{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+ion-toolbar{
+  --background: none;
+  --color:#FFFFFF;
+  width: 300px;
+  padding: 20px 0;
+  --border-color: #ffffff78;
+}
+
+.toolbar__after__light{
+    --border-color: #fe175c0f;
+}
+.toolbar__title__light{
+  color: #000;
+}
+
+ion-title{
+  --color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+ion-back-button{
+  color: #FFFFFF;
+}
+
+.backbtn__light{
+  color: #FE175C;
+}
+
+.setings__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setings__btn__wrapper{
+  display: flex;
+  width: 300px;
+  height: 52px;
+  position: relative;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+
+.setings__btn__bg{
+  background: #FE175C;
+  border-radius: 10px;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.setings__btn__bg__light{
+  opacity: 0.05;
+  z-index: 1;
+}
+
+.setings__btn__icon__wrapper{
+  width: 56px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.setings__btn__icon__wrapper::after{
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 28px;
+  background-color: #bc325c78;
+  opacity: 0.4;
+  left: 50px;
+}
+
+.question{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.question__light{
+  color: #FE175C;
+}
+
+.rate{
+  width: 26px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Dark/setingsStar.png');
+}
+
+.rate__light{
+  width: 26px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Light/rateIcon.png');
+}
+
+.restore{
+  width: 26px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Dark/setingsArrow.png');
+}
+
+.restore__light{
+  width: 26px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Light/arrowIcon.png');
+}
+
+.setings__btn__text{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: left;
+  z-index: 2;
+  margin-left: 10px;
+}
+
+.btn__text__light{
+  color: #000;
+}
+
+.setings__btn__row{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  border-bottom: 1px solid #ffffff78;
+  padding-bottom: 32px;
+}
+
+.setings__btn__row__light{
+  border-bottom: 1px solid #fe175c17;
+}
+
+.small__btn__wrapper{
+  width: 144px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.pdf__logo{
+  width: 28px;
+  height: 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Dark/pdfLogo.png');
+  margin: 0 15px;
+  z-index: 1;
+}
+
+.pdf__logo__light{
+  width: 28px;
+  height: 28px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Light/pdfIcon.png');
+  margin: 0 15px;
+  z-index: 1;
+}
+
+.small__btn__text{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 75px;
+  z-index: 1;
+}
+
+.small__btn__text__light{
+  color: #000;
+}
+
+.switch__theme__row{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 0 15px;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.red__theme__text{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.red__theme__text__light{
+  color: #FE175C;
+
+}
+
+.white__theme__text{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.white__theme__text__light{
+  color: #FE175C;
+
+}
+
+ion-toggle{
+  --background: none;
+  border: 2px solid #FE175C;
+  border-radius: 60px;
+}
+
+.increase__btn{
+  width: 300px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.increase__bg{
+  position: absolute;
+  background: #FE175C;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.increase__icon{
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/ModeIcons/Dark/ProSmallStar.png');
+  z-index: 2;
+  margin-right: 12px;
+}
+
+.increase__text{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+.toggle-inner{
+  background: #FE175C;
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px){
+
+  .increase__btn{
+    margin-top: 20px;
+  }
+
+  ion-header{
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  ion-toolbar{
+    padding: 15px 0;
+  }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) and (max-height: 736px){
+
+  .increase__btn{
+    margin-top: 20px;
+    height: 63px;
+  }
+
+  ion-header{
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  .setings__btn__wrapper{
+    height: 63px;
+  }
+
+  .small__btn__wrapper{
+    height: 63px;
+  }
+
+  .question{
+    font-size: 40px;
+  }
+
+  .rate{
+    height: 32px;
+    width: 32px;
+  }
+
+  .restore{
+    height: 32px;
+    width: 32px;
+  }
+
+  .increase__icon{
+    width: 32px;
+    height: 32px;
+  }
+
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) and (max-height: 812px){
+
+  .increase__btn{
+    margin-top: 20px;
+    height: 63px;
+  }
+
+  ion-header{
+    margin-top: 60px;
+    margin-bottom: 35px;
+  }
+
+  .setings__btn__wrapper{
+    height: 63px;
+    margin-bottom: 20px;
+  }
+
+  .small__btn__wrapper{
+    height: 63px;
+  }
+
+  .question{
+    font-size: 40px;
+  }
+
+  .rate{
+    height: 32px;
+    width: 32px;
+  }
+
+  .restore{
+    height: 32px;
+    width: 32px;
+  }
+
+  .increase__icon{
+    width: 32px;
+    height: 32px;
+  }
+
+}
+
+@media screen and (min-width: 414px) and (min-height: 896px) and (max-height: 896px){
+  .increase__btn{
+    margin-top: 20px;
+    height: 70px;
+  }
+
+  ion-header{
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .setings__btn__wrapper{
+    height: 70px;
+    margin-bottom: 20px;
+  }
+
+  .small__btn__wrapper{
+    height: 70px;
+  }
+
+  .question{
+    font-size: 40px;
+  }
+
+  .rate{
+    height: 32px;
+    width: 32px;
+  }
+
+  .restore{
+    height: 32px;
+    width: 32px;
+  }
+
+  .increase__icon{
+    width: 32px;
+    height: 32px;
+  }
+
+  .setings__btn__row{
+    padding-bottom: 50px;
+  }
+}

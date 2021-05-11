@@ -1,0 +1,415 @@
+.pay__container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slide__container__last{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 74%;
+  width: 336px;
+  margin-top: 100px;
+}
+
+.close__icon{
+  width: 18px;
+  height: 18px;
+  background-image: url("/assets/ModeIcons/Dark/closeIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -60px;
+  right: 10px;
+}
+
+.close__icon__light{
+  background-image: url("/assets/ModeIcons/Light/modalCloseIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img__star__wrapper{
+  width: 160px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.img__star{
+  width: 140px;
+  height: 140px;
+  background-image: url("/assets/ModeIcons/Dark/Favourites.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 9px;
+}
+
+.img__star__shadow{
+  width: 200px;
+  height: 200px;
+  background-image: url("/assets/ModeIcons/Dark/FavouritesShadow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 1;
+  top: -29px;
+  right: -20px;
+}
+
+.title__text{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.try__app__light{
+  color: #000;
+}
+
+.about__app__wrapper{
+  position: relative;
+  width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.about__app__container__bg{
+  background: #FE175C;
+  border-radius: 5px;
+  opacity: 0.2;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.about__app__container__bg__light{
+  opacity: 0;
+}
+
+.plus__symbol{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  width: 24px;
+  color: #FFFFFF;
+  margin-left: 16px;
+  margin-right: 8px;
+  z-index: 1;
+}
+
+.plus__symbol__light{
+  color: #FE175C;
+}
+
+.about__text__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+  z-index: 1;
+  p {
+      margin: 0;
+      color: #FFFFFF;
+      font-size: 18px;
+      pading: 1px 0;
+      text-align: left;
+  }
+}
+
+.about__text__wrapper__light{
+  p{
+    color: #000;
+  }
+}
+
+.no__adds__wrapper{
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+.no__adds__bg{
+  background: #FE175C;
+  border-radius: 5px;
+  opacity: 0.2;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+}
+
+.no__adds__bg__light{
+  opacity: 0;
+}
+
+.no__adds__icon{
+  width: 19px;
+  height: 14.91px;
+  background-image: url("/assets/ModeIcons/Dark/checkIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.no__adds__icon__light{
+  background-image: url("/assets/ModeIcons/Light/checkIcon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.no__adds__text{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 6px;
+  z-index: 1;
+}
+
+.no__adds__text__light{
+  color: #000;
+}
+
+.price{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.btn__start__wrapper{
+  position: absolute;
+  top: 602px;
+  left: 111px;
+}
+
+.next__btn {
+    width: 152px;
+    height: 62px;
+  --border-radius: 35px;
+  --background: #FFFFFF;
+  --color: #FE175C;
+  --background-focused: none;
+  --background-activated: none;
+}
+
+.privacy__text{
+  font-family: 'Montserrat';
+  font-style: regular;
+  line-height: 12px;
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 44px;
+  padding: 0 20px;
+}
+
+.pay__btns__container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 19px;
+}
+
+.pay__btn__wrapper{
+  width: 336px;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.pay__btn__bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background: rgba(254, 23, 92, 0.1);
+}
+
+.pay__btn__bg__light{
+  background: #FE175C;
+  opacity: 0.05;
+}
+
+.pay__btn__text__col{
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  margin-left: 32px;
+}
+
+.pay__btn__text__title{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+
+.btn__text__light{
+  color: #000;
+}
+
+.pay__btn__text__subtitle{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.pay__btn__text__subtitle__light{
+  color: #000;
+}
+
+.central{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  background: linear-gradient(92.93deg, #FE175C 0%, #EA1353 100%);
+}
+
+.popular__wrapper{
+  position: absolute;
+  top: -6px;
+  right: 24px;
+  z-index: 2;
+}
+
+.popular__box{
+  width: 101px;
+  height: 21px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.popular__bg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(86.8deg, #FFA700 5.3%, #FF7800 94.7%);
+  border-radius: 4px;
+}
+
+.popular__text{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 14px;
+  z-index: 3;
+}
+
+.pay__btn__start{
+  display: flex;
+  z-index: 2;
+  margin-right: 32px;
+  align-items: center;
+}
+
+.pay__btn__start__text{
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pay__btn__start__text__light{
+  color: #FE175C;
+}
+
+.pay__btn__start__icon{
+  background-image: url("/assets/ModeIcons/Dark/arrowRight.png");
+  width: 6px;
+  height: 12px;
+  margin-left: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.pay__btn__start__icon__light{
+  background-image: url("/assets/ModeIcons/Light/arrowRight.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+  @media screen and (max-width: 375px) and (max-height: 667px){
+    .slide__container__last{
+      margin-top: 20px;
+    }
+
+    .close__icon{
+      top: 0px;
+    }
+
+    .popular__text__ja{
+    font-size: 11px;
+    }
+
+  }
+
+  @media screen and (min-width: 376px) and (max-width: 414px) and (max-height: 736px){
+
+    .popular__text__ja{
+      font-size: 11px;
+    }
+
+    .slide__container__last{
+      margin-top: 65px;
+    }
+
+    .close__icon{
+      top: -40px;
+    }
+  }
+
+  @media screen and (max-width: 375px) and (min-height: 812px) and (max-height: 812px){
+    .popular__text__ja{
+      font-size: 11px;
+    }
+  }
+
+
+  @media screen and (min-width: 414px) and (min-height: 896px) and (max-height: 896px){
+    .no__adds__wrapper{
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+
+    .pay__btn__wrapper{
+      margin-bottom: 30px;
+    }
+
+    .title__text{
+      margin-bottom: 25px;
+    }
+
+    .popular__text__ja{
+    font-size: 11px;
+    }
+
+  }

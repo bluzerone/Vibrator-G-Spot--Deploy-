@@ -1,0 +1,71 @@
+{
+  "intro": {
+    "Vibration has a profound": "可调节不同的强度和速度来产生振动。",
+    "Next": "下一步",
+    "Vibrator G-Spot": "Vibrator G-Spot",
+    "Total anonymity": "完全匿名",
+    "This application does not collect": "该应用程序从不以分析和营销的目的而收集用户的个人信息。",
+    "Try our app": "试一试我们的程序吧",
+    "12 vibration modes": "12种振动模式",
+    "3 power levels": "3种强度模式",
+    "7 intensity options": "7种调节模式",
+    "No ads": "无广告",
+    "week": "一周",
+    "Start": "开始",
+    "Subscription Term: After free trial": "订阅期限:在免费试用Vibrator G-Spot之后，每周订阅费为4.99美元/ 周，如果没有在截止日期前至少24小时之内取消订阅，则自动续费订阅。订阅费从用户ITunes帐户收取。订阅之后，免费试用期将取消。"
+  },
+  "home": {
+    "Speed" : "速度",
+    "Power" : "电源",
+    "Want VIP?" : "想成为VIP吗?",
+    "Hold to unlock" : "留住以便解锁"
+  },
+  "modes": {
+    "Modes" : "模式",
+    "Total Harmony" : "调和",
+    "Spring Rain" : "春雨模",
+    "Time for Yourself" : "爱自己",
+    "Paradise Island" : "天堂岛",
+    "Summer Storm" : "夏季风暴",
+    "Secrets of Nirvana" : "涅槃秘密",
+    "Sweet Kiss" : "甜蜜之吻",
+    "Awakening of Power" : "原力觉醒",
+    "The glow of youth" : "年轻极光",
+    "Morning Tenderness" : "晨之柔情",
+    "Balinese Morning" : "波罗的海之晨",
+    "Hawaiian storm" : "夏威夷风暴"
+  },
+  "setings": {
+    "Setings" : "设置",
+    "Does not vibrate?" : "无震动？",
+    "Rate us" : "评价",
+    "Restore purchases" : "恢复购买",
+    "Privacy policy" : "隐私政策",
+    "use" : "使用条件",
+    "Red theme" : "白色主题",
+    "White theme" : "红色主题",
+    "Increasing power" : "提高强度"
+  },
+  "pay": {
+    "vibration modes" : "种振动模式",
+    "power levels" : "种强度模式",
+    "intensity options" : "种调节模式",
+    "No ads" : "无广告",
+    "Forever" : "永远",
+    "One time purchase" : "一次性购买",
+    "Start" : "开始",
+    "month" : "一个月",
+    "Popular choice" : "热门选项",
+    "week" : "美元/周",
+    "Three day free" : "三天免费",
+    "week after that" : "美元/周",
+    "Test app" : "测试应用程序"
+  },
+  "modal":{
+    "Does not vibrate?" : "无震动?",
+    "Make sure that" : "确保您的设备已开启振动和触觉功能:",
+    "settings1" : "1. [设置 -> 声音和触觉 ]并开启’响铃振动模式’，’无声振动模式”和“触觉模式’。",
+    "settings2" : "2. [设置 -> 特殊选项 -> 触摸屏]并开启’震动模式’。",
+    "Ok, close" : "好的"
+  }
+}

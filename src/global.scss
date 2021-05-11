@@ -1,0 +1,259 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@import "./lato/lato.css";
+
+.swiper-pagination-bullet{
+  width: 8px;
+  height: 8px;
+  border: 1px solid #FE175C;
+  background: none;
+}
+
+.swiper-pagination-bullet-active{
+  background: #FE175C;
+}
+
+.swiper-pagination{
+  margin-bottom: 60px;
+}
+
+.no-scroll {
+    --overflow: hidden;
+}
+
+.toggle-checked{
+  --background: none;
+  --background-checked: none;
+}
+
+.alert-wrapper{
+  --min-height: 317px;
+  --min-width: 300px;
+  justify-content: space-between;
+}
+
+.alert-wrapper .alert-button{
+  height: 60px;
+  background: #F4F4F4;
+}
+
+.alert-wrapper .alert-button .alert-button-inner{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #FE175C;
+  font-weight: 400;
+}
+
+.alert__text{
+  padding-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.alert-message{
+  padding: 0 15px;
+}
+
+.alert-title{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ion-backdrop{
+  background: linear-gradient(167.96deg, #DF074F 0%, #DF074F 100%), #FE175C;
+  opacity: 0.7;
+}
+
+.toggle__body .ngx-slider.vertical {
+  height: 96%;
+  bottom: 4px;
+}
+
+.toggle__body .ngx-slider{
+  position: absolute !important;
+}
+
+.toggle__body .ngx-slider .ngx-slider-pointer {
+  // background: #ffffff !important;
+  width: 103px;
+  height: 103px;
+  border-radius: 50%;
+  margin-left: -37px;
+}
+
+.toggle__body .ngx-slider .ngx-slider-pointer:after {
+  width: 0;
+}
+
+.toggle__body .ngx-slider .ngx-slider-pointer:focus {
+  outline: none;
+}
+
+.toggle__body .ngx-slider .ngx-slider-full-bar {
+  opacity: 0 !important;
+}
+
+.toggle__body .ngx-slider .ngx-slider-selection-bar .ngx-slider-selection {
+  width: 103px;
+  margin-left: -50px;
+  border-radius: 0px 0px 51px 51px;
+  background: #FE175C;
+  transition: all 100ms linear;
+}
+
+.toggle__body  .ngx-slider.animate .ngx-slider-bar-wrapper {
+  transition: all 100ms linear;
+}
+
+.toggle__body .ngx-slider.vertical .ngx-slider-pointer {
+  left: 2px!important;
+}
+
+.toggle__body .ngx-slider.animate .ngx-slider-pointer{ transition: all 0.1s linear; }
+
+@media screen and (max-width: 376px){
+
+  .toggle__body .ngx-slider .ngx-slider-pointer{
+    width: 77px;
+    height: 77px;
+  }
+
+  .toggle__body .ngx-slider .ngx-slider-selection-bar .ngx-slider-selection{
+    width: 77px;
+    margin-left: -37px;
+    bottom: 1px;
+  }
+
+  .toggle__body .ngx-slider.vertical .ngx-slider-pointer {
+    left: 0px !important;
+  }
+
+  .alert-wrapper{
+    --min-width: 0;
+  }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px){
+
+  .toggle__body .ngx-slider .ngx-slider-pointer{
+    width: 88px;
+    height: 88px;
+  }
+
+  .toggle__body .ngx-slider .ngx-slider-selection-bar .ngx-slider-selection{
+    width: 88px;
+    margin-left: -42px;
+    bottom: 1px;
+  }
+
+  .toggle__body .ngx-slider.vertical .ngx-slider-pointer {
+    left: -5px!important;
+  }
+
+  .toggle__body .ngx-slider.vertical {
+    left: 26px;
+  }
+
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px){
+  .swiper-container-horizontal>.swiper-pagination-bullets{
+    bottom: -40px;
+  }
+
+  .toggle__body .ngx-slider.vertical {
+    left: 21px;
+  }
+
+  .alert__text{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) and (max-height: 736px){
+
+  .swiper-pagination{
+    margin-bottom: 30px;
+  }
+
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) and (max-height: 812px){
+
+  .toggle__body .ngx-slider .ngx-slider-pointer{
+    width: 98px;
+    height: 98px;
+  }
+
+  .toggle__body .ngx-slider .ngx-slider-selection-bar .ngx-slider-selection{
+    width: 98px;
+    margin-left: -47px;
+    bottom: 1px;
+  }
+
+  .toggle__body .ngx-slider.vertical .ngx-slider-pointer {
+    left: -10px !important;
+
+  }
+
+  .toggle__body .ngx-slider.vertical {
+    left: 31px;
+  }
+
+  .alert__text{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 414px) and (min-height: 896px) and (max-height: 896px){
+  .toggle__body .ngx-slider .ngx-slider-pointer{
+    width: 102px;
+    height: 102px;
+  }
+
+  .toggle__body .ngx-slider .ngx-slider-selection-bar .ngx-slider-selection{
+    width: 102px;
+    margin-left: -49px;
+  }
+
+  .toggle__body .ngx-slider.vertical .ngx-slider-pointer {
+    left: -12px !important;
+  }
+  .toggle__body .ngx-slider.animate .ngx-slider-bar-wrapper {
+    bottom: 1px !important;
+  }
+
+  .toggle__body .ngx-slider.vertical {
+    left: 34px;
+  }
+}

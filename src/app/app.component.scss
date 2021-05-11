@@ -1,0 +1,139 @@
+.bottom__navigate__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 34px;
+  width: 100%;
+  transition: all 300ms ease;
+  opacity: 0;
+}
+
+.bottom__navigate{
+  position: relative;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom__navigate__disabled{
+  position: relative;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom__navigate__background{
+  position: absolute;
+  background: #FE175C;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  width: 300px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.navigate__background__light{
+  opacity: 0.05;
+}
+
+.bottom__navigate-icon{
+  ion-img{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.bottom__navigate-icon:focus {
+  outline: none;
+}
+
+.bac__img{
+  width: 48px;
+  height: 48px;
+}
+
+.image__opacity{
+  opacity: 0.3;
+}
+
+
+@media screen and (max-width: 375px) and (max-height: 667px){
+
+  .bottom__navigate-icon{
+    ion-img{
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .bottom__navigate__container{
+    bottom: 20px;
+  }
+
+  .bottom__navigate__background{
+    width: 300px;
+    height: 100%;
+  }
+
+  .bottom__navigate{
+    width: 280px;
+    height: 80px;
+  }
+
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) and (max-height: 812px){
+
+  .bottom__navigate-icon{
+    ion-img{
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .bottom__navigate__background{
+    height: 90px;
+  }
+
+  .bottom__navigate__container{
+    bottom: 50px;
+  }
+
+}
+
+@media screen and (min-width: 414px) and (min-height: 896px) and (max-height: 896px){
+
+  .bottom__navigate-icon{
+    ion-img{
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .bottom__navigate__background{
+    height: 90px;
+  }
+
+  .bottom__navigate__container{
+    bottom: 50px;
+  }
+
+}
